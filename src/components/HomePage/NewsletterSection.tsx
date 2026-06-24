@@ -35,7 +35,8 @@ const NewsletterSection = () => {
             </div>
 
             <p className="text-white/70 text-sm">
-              No credit card required • 7-day free trial • Cancel anytime
+              No credit card required • Start practicing for free • Cancel
+              anytime
             </p>
           </motion.div>
         </div>
