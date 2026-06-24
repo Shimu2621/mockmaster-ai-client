@@ -47,7 +47,7 @@ const HowItWorks = () => {
                 icon: TrendingUp,
                 title: "Progress Tracking",
                 description:
-                  "Real-time analytics to monitor your improvement and adjust strategies",
+                  "Real-time performance analytics to track your progress and identify areas for improvement",
               },
             ].map((feature, index) => (
               <motion.div
