@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { BookOpen, Brain, Target, TrendingUp } from "lucide-react";
 import { motion } from "framer-motion";
@@ -19,7 +19,7 @@ const HowItWorks = () => {
             <h2 className="text-4xl font-bold mb-4">How It Works</h2>
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
               Our AI-powered platform adapts to your learning style and provides
-              personalized guidance
+              personalized guidance.
             </p>
           </motion.div>
 
