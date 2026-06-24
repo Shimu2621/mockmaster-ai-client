@@ -23,7 +23,7 @@ const testimonials = [
     image:
       "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=150",
     content:
-      "The personalized study plan and mock tests were exactly what I needed. The speaking practice with AI was particularly helpful.",
+      "The personalized interview practice and AI feedback were exactly what I needed. The mock interviews helped me improve my performance.",
   },
   {
     name: "Maria Garcia",
