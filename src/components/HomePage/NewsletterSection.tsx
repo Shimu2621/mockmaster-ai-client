@@ -1,8 +1,8 @@
-"use client"
-import React from 'react'
-import { Input } from '../ui/input'
-import { Button } from '../ui/button'
-import {motion} from "framer-motion"
+"use client";
+import React from "react";
+import { Input } from "../ui/input";
+import { Button } from "../ui/button";
+import { motion } from "framer-motion";
 
 const NewsletterSection = () => {
   return (
@@ -16,9 +16,12 @@ const NewsletterSection = () => {
             viewport={{ once: true }}
             className="max-w-3xl mx-auto"
           >
-            <h2 className="text-4xl font-bold mb-6 text-white">Ready to Achieve Your Target IELTS Score?</h2>
+            <h2 className="text-4xl font-bold mb-6 text-white">
+              Ready to Achieve Your Target IELTS Score?
+            </h2>
             <p className="text-xl text-white/90 mb-8">
-              Join thousands of successful students who improved their IELTS scores with our AI-powered platform
+              Join thousands of job seekers and professionals who have improved
+              their interview skills with our AI-powered platform.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center max-w-md mx-auto mb-8">
@@ -31,12 +34,14 @@ const NewsletterSection = () => {
               </Button>
             </div>
 
-            <p className="text-white/70 text-sm">No credit card required • 7-day free trial • Cancel anytime</p>
+            <p className="text-white/70 text-sm">
+              No credit card required • 7-day free trial • Cancel anytime
+            </p>
           </motion.div>
         </div>
       </section>
     </div>
-  )
-}
+  );
+};
 
-export default NewsletterSection
+export default NewsletterSection;
