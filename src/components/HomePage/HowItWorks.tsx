@@ -41,7 +41,7 @@ const HowItWorks = () => {
                 icon: BookOpen,
                 title: "Mock Tests",
                 description:
-                  "Realistic practice tests that simulate the actual IELTS exam experience",
+                  "Realistic mock interviews that simulate real-world job interview experiences",
               },
               {
                 icon: TrendingUp,
