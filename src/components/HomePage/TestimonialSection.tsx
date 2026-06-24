@@ -1,39 +1,47 @@
-"use client"
+"use client";
 
-import React, { useRef, useState } from 'react';
-import { motion, useInView, AnimatePresence } from 'framer-motion';
+import React, { useRef, useState } from "react";
+import { motion, useInView, AnimatePresence } from "framer-motion";
 
-import { Card } from '@/components/ui/card';
-import { Star, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Card } from "@/components/ui/card";
+import { Star, ChevronLeft, ChevronRight } from "lucide-react";
 
 const testimonials = [
   {
-    name: 'Sarah Johnson',
-    role: 'Medical Student',
-    score: '8.5',
-    image: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150',
-    content: 'The AI feedback was incredibly detailed and helped me identify my weak points. I improved my score from 6.5 to 8.5 in just 3 months!',
+    name: "Sarah Johnson",
+    role: "Medical Student",
+    score: "8.5",
+    image:
+      "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150",
+    content:
+      "The AI feedback helped me identify my weaknesses and improve my interview skills significantly. I improved my score from 6.5 to 8.5 in just 3 months!",
   },
   {
-    name: 'Ahmed Hassan',
-    role: 'Software Engineer',
-    score: '9.0',
-    image: 'https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=150',
-    content: 'The personalized study plan and mock tests were exactly what I needed. The speaking practice with AI was particularly helpful.',
+    name: "Ahmed Hassan",
+    role: "Software Engineer",
+    score: "9.0",
+    image:
+      "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=150",
+    content:
+      "The personalized study plan and mock tests were exactly what I needed. The speaking practice with AI was particularly helpful.",
   },
   {
-    name: 'Maria Garcia',
-    role: 'Business Analyst',
-    score: '8.0',
-    image: 'https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=150',
-    content: 'Outstanding platform! The instant feedback and progress tracking kept me motivated throughout my preparation journey.',
+    name: "Maria Garcia",
+    role: "Business Analyst",
+    score: "8.0",
+    image:
+      "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=150",
+    content:
+      "Outstanding platform! The instant feedback and progress tracking kept me motivated throughout my preparation journey.",
   },
   {
-    name: 'David Chen',
-    role: 'Graduate Student',
-    score: '8.5',
-    image: 'https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=150',
-    content: 'The AI-powered analysis was spot-on. It identified patterns in my writing that I never noticed and helped me improve significantly.',
+    name: "David Chen",
+    role: "Graduate Student",
+    score: "8.5",
+    image:
+      "https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=150",
+    content:
+      "The AI-powered analysis was spot-on. It identified patterns in my writing that I never noticed and helped me improve significantly.",
   },
 ];
 
@@ -47,7 +55,9 @@ export const TestimonialsSection: React.FC = () => {
   };
 
   const prevTestimonial = () => {
-    setCurrentIndex((prev) => (prev - 1 + testimonials?.length) % testimonials?.length);
+    setCurrentIndex(
+      (prev) => (prev - 1 + testimonials?.length) % testimonials?.length,
+    );
   };
 
   return (
@@ -63,7 +73,8 @@ export const TestimonialsSection: React.FC = () => {
             Success Stories
           </h2>
           <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            Join thousands of students who achieved their target IELTS scores with our AI-powered platform
+            Join thousands of students who achieved their target IELTS scores
+            with our AI-powered platform
           </p>
         </motion.div>
 
@@ -151,8 +162,8 @@ export const TestimonialsSection: React.FC = () => {
                 onClick={() => setCurrentIndex(index)}
                 className={`w-3 h-3 rounded-full transition-all duration-200 ${
                   index === currentIndex
-                    ? 'bg-cyan-500 scale-125'
-                    : 'bg-gray-300 dark:bg-gray-600 hover:bg-gray-400 dark:hover:bg-gray-500'
+                    ? "bg-cyan-500 scale-125"
+                    : "bg-gray-300 dark:bg-gray-600 hover:bg-gray-400 dark:hover:bg-gray-500"
                 }`}
               />
             ))}
