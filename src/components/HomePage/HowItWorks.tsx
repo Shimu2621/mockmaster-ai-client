@@ -35,7 +35,7 @@ const HowItWorks = () => {
                 icon: Target,
                 title: "Personalized Plan",
                 description:
-                  "Custom study plans tailored to your current level and target score",
+                  "AI-generated learning roadmaps based on your current performance and desired job position",
               },
               {
                 icon: BookOpen,
