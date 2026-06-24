@@ -29,7 +29,7 @@ const HowItWorks = () => {
                 icon: Brain,
                 title: "AI Assessment",
                 description:
-                  "Advanced AI analyzes your performance and identifies areas for improvement",
+                  "Advanced AI evaluates your interview performance, and provides personalized feedback to help you succeed",
               },
               {
                 icon: Target,
