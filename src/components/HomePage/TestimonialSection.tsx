@@ -41,7 +41,7 @@ const testimonials = [
     image:
       "https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=150",
     content:
-      "The AI-powered analysis was spot-on. It identified patterns in my writing that I never noticed and helped me improve significantly.",
+      "The AI-powered analysis was spot-on. It identified patterns in my writing that I never noticed and helped me improve significantly",
   },
 ];
 
