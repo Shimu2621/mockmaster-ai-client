@@ -142,7 +142,7 @@ export const TestimonialsSection: React.FC = () => {
             {/* Navigation buttons */}
             <button
               onClick={prevTestimonial}
-              className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white dark:bg-gray-700 rounded-full p-3 shadow-lg hover:shadow-xl transition-all duration-200 text-gray-600 dark:text-gray-300 hover:text-cyan-600 dark:hover:text-cyan-400"
+              className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white dark:bg-gray-700 rounded-full p-3 shadow-lg hover:shadow-xl transition-all duration-200 text-gray-600 dark:text-gray-300 hover:text-cyan-600 dark:hover:text-cyan-300"
             >
               <ChevronLeft size={24} />
             </button>
