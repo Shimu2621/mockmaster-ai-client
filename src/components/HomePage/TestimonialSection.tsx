@@ -14,7 +14,7 @@ const testimonials = [
     image:
       "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150",
     content:
-      "The AI feedback helped me identify my weaknesses and improve my interview skills significantly. I improved my score from 6.5 to 8.5 in just 3 months!",
+      "The AI feedback helped me identify my weaknesses and improve my interview skills significantly. I improved my score from 6.5 to 8.5 in just 3 month!",
   },
   {
     name: "Ahmed Hassan",
