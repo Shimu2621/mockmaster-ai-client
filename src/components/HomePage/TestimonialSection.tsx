@@ -32,7 +32,7 @@ const testimonials = [
     image:
       "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=150",
     content:
-      "Outstanding platform! Instant feedback and progress tracking kept me motivated throughout my preparation.",
+      "Outstanding platform! Instant feedback and progress tracking kept me motivated throughout my preparations.",
   },
   {
     name: "David Chen",
