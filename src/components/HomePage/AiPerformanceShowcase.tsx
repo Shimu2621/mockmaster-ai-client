@@ -29,32 +29,32 @@ export const AiPerformanceShowcase: React.FC = () => {
     }
   }, [isInView, finalStats]);
 
-  const statsData = [
-    {
-      icon: TrendingUp,
-      label: "Average Accuracy",
-      value: animatedStats.accuracy,
-      suffix: "%",
-    },
-    {
-      icon: Award,
-      label: "Score Improvement",
-      value: animatedStats.improvement,
-      suffix: "%",
-    },
-    {
-      icon: Clock,
-      label: "Hours Saved",
-      value: animatedStats.timesSaved,
-      suffix: "h",
-    },
-    {
-      icon: Users,
-      label: "Students Helped",
-      value: animatedStats.studentsHelped,
-      suffix: "+",
-    },
-  ];
+  // const statsData = [
+  //   {
+  //     icon: TrendingUp,
+  //     label: "Average Accuracy",
+  //     value: animatedStats.accuracy,
+  //     suffix: "%",
+  //   },
+  //   {
+  //     icon: Award,
+  //     label: "Score Improvement",
+  //     value: animatedStats.improvement,
+  //     suffix: "%",
+  //   },
+  //   {
+  //     icon: Clock,
+  //     label: "Hours Saved",
+  //     value: animatedStats.timesSaved,
+  //     suffix: "h",
+  //   },
+  //   {
+  //     icon: Users,
+  //     label: "Students Helped",
+  //     value: animatedStats.studentsHelped,
+  //     suffix: "+",
+  //   },
+  // ];
 
   return (
     <section className="py-20 bg-blue-900 dark:bg-blue-950" ref={ref}>
