@@ -35,7 +35,7 @@ export default function Footer() {
             >
               Personalized mock exams with AI-powered feedback and smart
               tracking to help you improve faster and achieve your target IELTS
-              score with confidence.
+              score with confidence
             </motion.p>
           </div>
 
