@@ -54,7 +54,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import Link from "next/link";
 import { Button } from "../../ui/button";
 import { ModeToggle } from "../../ThemeProvider/ModeToggle";
-import { useAppDispatch, useAppSelector } from "@/redux/hooks/hooks";
+import { useAppDispatch } from "@/redux/hooks/hooks";
 import { logout } from "@/redux/feature/auth/authSlice";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
