@@ -19,7 +19,8 @@ const HowItWorks = () => {
             <h2 className="text-4xl font-bold mb-4">How It Works</h2>
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
               Master your interviews with AI-generated questions, real-time
-              evaluation, and personalized coaching designed to help you succeed
+              evaluation, and personalized coaching designed to help you
+              succeeds
             </p>
           </motion.div>
 
