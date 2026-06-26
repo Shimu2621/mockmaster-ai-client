@@ -41,7 +41,7 @@ const HowItWorks = () => {
                 icon: BookOpen,
                 title: "Mock Tests",
                 description:
-                  "Realistic mock interviews that simulate real-world job interview experiences",
+                  "Realistic mock interviews that simulate real-world job interview experience",
               },
               {
                 icon: TrendingUp,
