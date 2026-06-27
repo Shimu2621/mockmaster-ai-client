@@ -46,7 +46,6 @@ export const GenerateQuestionsDialog = ({
 
   const handleFormSubmit = (data: z.infer<typeof formSchema>) => {
     onSubmit(data);
-    form.reset();
   };
 
   return (
