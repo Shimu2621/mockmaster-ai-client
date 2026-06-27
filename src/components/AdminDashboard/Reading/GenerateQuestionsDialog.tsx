@@ -59,10 +59,7 @@ export const GenerateQuestionsDialog = ({
           Provide a prompt to generate questions for the passage.
         </p>
         <Form {...form}>
-          <form
-            onSubmit={form.handleSubmit(handleFormSubmit)}
-            className="space-y-4"
-          >
+          <form onSubmit={form.handleSubmit(handleFormSubmit)}>
             <FormField
               control={form.control}
               name="promptText"
