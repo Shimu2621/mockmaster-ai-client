@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
-import { useForm } from 'react-hook-form';
-import { zodResolver } from '@hookform/resolvers/zod';
-import * as z from 'zod';
+import { useForm } from "react-hook-form";
+import { zodResolver } from "@hookform/resolvers/zod";
+import * as z from "zod";
 
 import {
   Dialog,
@@ -10,8 +10,8 @@ import {
   DialogHeader,
   DialogTitle,
   DialogFooter,
-} from '@/components/ui/dialog';
-import { Button } from '@/components/ui/button';
+} from "@/components/ui/dialog";
+import { Button } from "@/components/ui/button";
 import {
   Form,
   FormControl,
@@ -19,11 +19,11 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from '@/components/ui/form';
-import { Textarea } from '@/components/ui/textarea';
+} from "@/components/ui/form";
+import { Textarea } from "@/components/ui/textarea";
 
 const formSchema = z.object({
-  promptText: z.string().min(10, 'Prompt must be at least 10 characters long.'),
+  promptText: z.string().min(10, "Prompt must be at least 10 characters long."),
 });
 
 interface GenerateQuestionsDialogProps {
@@ -41,7 +41,7 @@ export const GenerateQuestionsDialog = ({
 }: GenerateQuestionsDialogProps) => {
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
-    defaultValues: { promptText: '' },
+    defaultValues: { promptText: "" },
   });
 
   const handleFormSubmit = (data: z.infer<typeof formSchema>) => {
@@ -56,10 +56,13 @@ export const GenerateQuestionsDialog = ({
           <DialogTitle>Generate Questions</DialogTitle>
         </DialogHeader>
         <p className="text-sm text-muted-foreground">
-          Provide a prompt to generate questions for the passage.
+          Provide a prompt to generate questions for the passages.
         </p>
         <Form {...form}>
-          <form onSubmit={form.handleSubmit(handleFormSubmit)} className="space-y-4">
+          <form
+            onSubmit={form.handleSubmit(handleFormSubmit)}
+            className="space-y-4"
+          >
             <FormField
               control={form.control}
               name="promptText"
@@ -78,11 +81,16 @@ export const GenerateQuestionsDialog = ({
               )}
             />
             <DialogFooter>
-              <Button type="button" variant="outline" onClick={onClose} disabled={isLoading}>
+              <Button
+                type="button"
+                variant="outline"
+                onClick={onClose}
+                disabled={isLoading}
+              >
                 Skip
               </Button>
               <Button type="submit" disabled={isLoading}>
-                {isLoading ? 'Generating...' : 'Generate'}
+                {isLoading ? "Generating..." : "Generate"}
               </Button>
             </DialogFooter>
           </form>
