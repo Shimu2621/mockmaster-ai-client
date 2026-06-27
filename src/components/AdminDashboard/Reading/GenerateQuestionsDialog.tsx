@@ -56,7 +56,7 @@ export const GenerateQuestionsDialog = ({
           <DialogTitle>Generate Questions</DialogTitle>
         </DialogHeader>
         <p className="text-sm text-muted-foreground">
-          Provide a prompt to generate questions for the passages.
+          Provide a prompt to generate questions for the passage.
         </p>
         <Form {...form}>
           <form
