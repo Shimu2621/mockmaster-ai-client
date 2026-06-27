@@ -23,7 +23,7 @@ import {
 import { Textarea } from "@/components/ui/textarea";
 
 const formSchema = z.object({
-  promptText: z.string().min(10, "Prompt must be at least 10  long."),
+  promptText: z.string().min(10, "Prompt must be at least 10 characters long."),
 });
 
 interface GenerateQuestionsDialogProps {
